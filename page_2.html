@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page_2</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="page_2.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+
+<body>
+        <div id="top">
+                <div id="no1">
+                    <a href="main.html">
+                    <h1 class="title">A-teen</h1>
+                    </a>
+                </div>
+
+                <div class="li" >
+                    <div id="no2" style="display: none">
+                      <p class="menu"> <a href="page_2.html"> 기본소개 </a></p>
+                    </div>
+
+                    <div id="no3" style="display: none">
+                      <p class="menu"> <a href="page_3.html"> 등장인물 </a></p>
+                    </div>
+
+                    <div id="no4" style="display: none">
+                      <a href="https://www.vlive.tv/video/78112/playlist/78150" target="_blank"><p class="menu">V LIVE 바로가기</p></a>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br>
+            <center>
+            <iframe src="1.html" frameborder="0px" width="1100px" height="680px" id="frame"style="display: none" borader-radius="10px"></iframe>
+        </center>
+
+        <script>
+            $( "#no1" ).show( "slow" , function() {
+                 $( "#no2" ).show( "slow" , function() {
+                    $( "#no3" ).show( "slow" , function() {
+                        $( "#no4" ).show( "slow" , function() {
+                            $( "#frame" ).show("slow");
+                        });
+                    });
+                });
+            });
+         </script>
+</body>
+</html>

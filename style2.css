@@ -1,0 +1,120 @@
+.title{
+font-size:30px;
+margin-left: 45px;
+margin-top: 20px;
+margin-bottom: 20px;
+color: hotpink;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: skyblue;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+
+#top{
+background-image: url('사진/블루배경.png');
+background-size:cover;
+display: grid;
+height:80px;
+grid-template-columns: 1fr 3fr
+
+}
+
+.title,.menu{ border-right: 0px solid black;}
+
+.li{
+  height: 10px;
+margin-top: 10px;
+text-align: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr
+}
+
+.menu{
+margin-top: 20px;
+}
+
+h1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.picture{
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 380px;
+  height: 624.800px;
+  margin-bottom: 30px;
+}
+
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.c {
+    color: #007bff;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.card-body {
+    flex: 1 1;
+    padding: 1.25rem;
+    height: 232.8px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}

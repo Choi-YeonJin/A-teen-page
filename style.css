@@ -1,0 +1,136 @@
+body{
+    background-image: url(http://blogfiles.naver.net/MjAxODA3MDVfMTM2/MDAxNTMwNzE3Mjc5NTMz.5ZwfLQJmEXGvNh7iqYwnHdgjFuDtJfUqu67ZoM_ObRwg.dFV26dNhrrsXFXRCBG9AyaKRQozQgM8GQQH57yqjAYEg.JPEG.soondufu/IMG_9512.jpg);
+    /*http://blogfiles.naver.net/MjAxODA4MDJfMjQz/MDAxNTMzMjA4OTY1NjEw.UUHTkRjcD44BnNfUOAwF-kdnScMBb0yS9-6OouM6fhMg.Ny4GN1aGwrSXRzg9ki3RWrm5YPK3D2y4jOMtrzRtG54g.JPEG.kdy300700/attachImage_983222946.jpeg*/
+    background-size:cover;
+}
+
+.title{
+font-size:30px;
+margin-left: 45px;
+color: hotpink;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: skyblue;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+
+#top{
+display: grid;
+grid-template-columns: 1fr 3fr
+}
+
+.title,.menu{ border-right: 0px solid black;}
+
+.li{
+  height: 10px;
+margin-top: 10px;
+text-align: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr
+}
+
+.menu{
+margin-top: 18px;
+}
+
+
+
+
+.font{
+  margin-bottom: 1.5rem!important;
+  margin-top: 1.5rem!important;
+  margin-left: 150px;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.c {
+    color: #007bff;
+}
+
+
+.card-img-top {
+    width: 100%;
+}
+
+
+@media (min-width: 576px)
+.col-sm-6 {
+    /* -ms-flex: 0 0 50%; */
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media (min-width: 992px)
+.col-lg-4 {
+    /* -ms-flex: 0 0 33.333333%; */
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+
+.container {
+  margin-left: 69.200;
+  margin-right: 69.200;
+  width: 1110px;
+  height: 1419.600;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: inline;
+}
+
+.col-lg-4{
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 380px;
+  height: 624.800px;
+  margin-bottom: 30px;
+}

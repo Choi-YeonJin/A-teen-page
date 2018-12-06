@@ -1,0 +1,42 @@
+body{
+    background-image: url(http://blogfiles.naver.net/MjAxODA4MDJfMjQz/MDAxNTMzMjA4OTY1NjEw.UUHTkRjcD44BnNfUOAwF-kdnScMBb0yS9-6OouM6fhMg.Ny4GN1aGwrSXRzg9ki3RWrm5YPK3D2y4jOMtrzRtG54g.JPEG.kdy300700/attachImage_983222946.jpeg);
+    /*http://blogfiles.naver.net/MjAxODA4MDJfMjQz/MDAxNTMzMjA4OTY1NjEw.UUHTkRjcD44BnNfUOAwF-kdnScMBb0yS9-6OouM6fhMg.Ny4GN1aGwrSXRzg9ki3RWrm5YPK3D2y4jOMtrzRtG54g.JPEG.kdy300700/attachImage_983222946.jpeg*/
+    background-size:cover;
+}
+
+.title{
+  font-size:45px;
+  margin-left: 45px;
+  color: hotpink;
+  -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: skyblue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+#top{
+  display: grid;
+  grid-template-columns: 1fr 3fr
+}
+
+.title,.menu{ border-right: 1px solid black;}
+
+.li{
+  height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
+
+.menu{
+  margin-top: 18px;
+}
+img { width:1000px; height:680px;position:absolute; top:50%; left:50%;margin-top:-386px; margin-left:-500px; /*margin-right:-607px;*/ } 
+.footer {position:absolute; width:100%; height: 50px; bottom:0; text-align:center; } 
+
+
